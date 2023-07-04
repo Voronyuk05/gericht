@@ -1,0 +1,451 @@
+* {
+  font-family: "Cormorant Upright";
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.h2-big {
+  width: 1068px;
+  height: 235px;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 161px;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+h2 {
+  margin: 0 auto;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #DCCA87;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.h3-big {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 128px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #DCCA87;
+}
+
+h3 {
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #DCCA87;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.h4-white {
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+h4 {
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #DCCA87;
+}
+
+.h5-big {
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.h5-big-prime {
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #DCCA87;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.h5-big-prime:hover {
+  text-decoration: underline;
+}
+
+.h5-prime {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #DCCA87;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+h5 {
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.h6-white {
+  margin: 0 auto;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.h6-gray {
+  margin: 0 auto;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+p {
+  margin: 0 auto;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.large-link {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  display: flex;
+  text-align: start;
+}
+
+.large-link:hover {
+  text-decoration: underline;
+}
+
+a {
+  margin: 0 auto;
+  font-family: "Open Sans";
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.main-btn {
+  margin: 0 auto;
+  padding: 8px 32px;
+  width: 157px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  background: #DCCA87;
+  color: black;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.small-btn {
+  margin: 0 auto;
+  padding: 8px 32px;
+  width: 140px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  background: #DCCA87;
+  color: black;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.clear-btn {
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  font-family: "Open Sans";
+  border: none;
+  width: 93px;
+  height: 28px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.small-clear-btn {
+  height: 28px;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  padding: 0;
+  background-color: #0C0B08;
+  text-align: start;
+  border: none;
+  color: #DCCA87;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.clear-border-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 32px;
+  gap: 10px;
+  width: 140px;
+  height: 44px;
+  background-color: #0C0B08;
+  border: 1px solid #DCCA87;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+select {
+  width: 412px;
+  height: 60px;
+  border: solid 2px #6f6f6f;
+  background-color: #0C0B08;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #AAAAAA;
+}
+
+option {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #AAAAAA;
+}
+
+input {
+  width: 635px;
+  height: 60px;
+  background-color: #0C0B08;
+  border: 1px solid #F5EFDB;
+  color: white;
+}
+
+body main .hero {
+  height: 679px;
+  width: 100%;
+  background: url("../../../img/rest-bg.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  height: 171px;
+}
+body main .hero .container .way {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 220px;
+  height: 30px;
+}
+body main .hero .container .way span {
+  color: white;
+}
+body main .text-about {
+  height: 750px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0C0B08;
+}
+body main .text-about .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+  width: 1128px;
+  height: 401px;
+}
+body main .text-about .container .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 1128px;
+  height: 221px;
+  text-align: center;
+}
+body main .text-about .container .text {
+  width: 868px;
+  height: 56px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+  flex: none;
+}
+body main .text-about .container .wrapper-btn {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 317px;
+  height: 44px;
+}
+body main .happy-hours {
+  background: url("../../../img/drinks-bg.jpg");
+  height: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=our-services.css.map */

@@ -1,0 +1,86 @@
+@import '../../global/typography';
+
+body {
+    main {
+        .history {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 1100px;
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0px;
+                gap: 64px;
+                width: 1300px;
+                height: 892px;
+                .title {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 8px;
+                    height: 138px;
+                    .sub-title {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                .content {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 143px;
+                    width: 1300px;
+                    height: 690px;
+                    .left-bar {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 0px;
+                        gap: 40px;
+                        width: 523px;
+                        height: 690px;
+                        p {
+                            text-align: start;
+                        }
+                    }
+                    .right-bar {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 0px;
+                        gap: 40px;
+                        width: 634px;
+                        height: 690px;
+                        .information {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            padding: 0px;
+                            gap: 40px;
+                            width: 634px;
+                            height: 265px;
+                            .bottom {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                padding: 0px;
+                                gap: 64px;
+                                width: 634px;
+                                height: 167px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

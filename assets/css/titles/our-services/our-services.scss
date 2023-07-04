@@ -1,0 +1,94 @@
+@import '../../global/typography';
+
+body {
+    main {
+        .hero {
+            height: 679px;
+            width: 100%;
+            background: url('../../../img/rest-bg.jpg');
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                gap: 24px;
+                height: 171px;
+                .way {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 8px;
+                    width: 220px;
+                    height: 30px;
+                    span {
+                        color: white;
+                    }
+                }
+            }
+        }
+        .text-about {
+            height: 750px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: $bg-color;
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                gap: 40px;
+                width: 1128px;
+                height: 401px;
+                .title {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 8px;
+                    width: 1128px;
+                    height: 221px;
+                    text-align: center;
+                }
+                .text {
+                    width: 868px;
+                    height: 56px;
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 175%;
+                    text-align: center;
+                    letter-spacing: 0.04em;
+                    color: #AAAAAA;
+                    flex: none;
+                }
+                .wrapper-btn {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 40px;
+                    width: 317px;
+                    height: 44px;
+                }
+            }
+        }
+        .happy-hours {
+            background: url('../../../img/drinks-bg.jpg');
+            height: 900px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
